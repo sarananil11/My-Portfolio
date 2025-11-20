@@ -1,11 +1,11 @@
-import { motion as Motion } from 'framer-motion'
-import Card from '../components/Card'
-import SectionHeading from '../components/SectionHeading'
-import { skills } from '../data/skills'
-import useSectionObserver from '../hooks/useSectionObserver'
+import { motion as Motion } from "framer-motion";
+import Card from "../components/Card";
+import SectionHeading from "../components/SectionHeading";
+import { skills } from "../data/skills";
+import useSectionObserver from "../hooks/useSectionObserver";
 
 const About = () => {
-  const sectionRef = useSectionObserver('about')
+  const sectionRef = useSectionObserver("about");
 
   return (
     <section
@@ -30,14 +30,19 @@ const About = () => {
             <Card className="h-full space-y-4">
               <h3 className="font-display text-2xl text-white">Background</h3>
               <p className="text-slate-300">
-                I’m pursuing my Bachelor of Computer Applications at Calicut University, where I’m
-                honing core programming skills, data structures, and software engineering
-                fundamentals. Outside the classroom, I love experimenting with modern web tooling,
-                crafting clean interfaces, and collaborating on campus projects.
+                Aspiring Junior Software Engineer and MERN Stack Developer with
+                a strong foundation in HTML, CSS, Bootstrap, and JavaScript.
+                Skilled in building responsive, user-friendly web interfaces and
+                integrating APIs to enhance functionality. Passionate about
+                clean code, problem-solving, and continuous learning in modern
+                web technologies like React, Node.js, Express, and MongoDB.
+                Eager to contribute to impactful projects and grow within a
+                collaborative development team.
               </p>
               <p className="text-slate-300">
-                My goal is to keep improving as a frontend engineer, contribute to impactful
-                product teams, and create interfaces that feel effortless to use.
+                My goal is to keep improving as a full stack engineer, contribute
+                to impactful product teams, and create interfaces that feel
+                effortless to use.
               </p>
             </Card>
           </Motion.div>
@@ -49,8 +54,12 @@ const About = () => {
             transition={{ duration: 0.6, delay: 0.15 }}
           >
             <Card className="h-full space-y-4">
-              <h3 className="font-display text-2xl text-white">Skills & Tools</h3>
-              <p className="text-sm text-slate-400">Always growing, always learning.</p>
+              <h3 className="font-display text-2xl text-white">
+                Skills & Tools
+              </h3>
+              <p className="text-sm text-slate-400">
+                Always growing, always learning.
+              </p>
               <div className="flex flex-wrap gap-3">
                 {skills.map((skill) => (
                   <span
@@ -66,8 +75,7 @@ const About = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default About
-
+export default About;

@@ -1,35 +1,22 @@
 export const projects = [
   {
-    title: 'IntelliTask Dashboard',
+    title: 'Learnsphere',
     description:
-      'A productivity dashboard that aggregates personal metrics, upcoming tasks, and project timelines with contextual insights.',
-    tech: ['React', 'Tailwind CSS', 'Framer Motion'],
+      'A free online learning platform for students to learn new skills and improve their knowledge.',
+    tech: ['HTML', 'CSS', 'Javascript', 'Bootstrap'],
     year: '2025',
-    category: 'Productivity',
+    category: 'Education',
+    link: 'https://learning-patform-saran.netlify.app/',
+    github: 'https://github.com/sarananil11/Learning-platform',
   },
-  // {
-  //   title: 'Campus Collaboration Hub',
-  //   description:
-  //     'A community portal for BCA peers to discover study groups, share resources, and schedule meetups with real-time updates.',
-  //   tech: ['React Router', 'Supabase', 'Chakra UI'],
-  //   year: '2024',
-  //   category: 'Social',
-  // },
-  // {
-  //   title: 'Devfolio Starter Pack',
-  //   description:
-  //     'A plug-and-play portfolio template featuring dynamic project listings, theming, and content-first layouts for developers.',
-  //   tech: ['Vite', 'Tailwind CSS', 'Netlify'],
-  //   year: '2024',
-  //   category: 'Open Source',
-  // },
-  // {
-  //   title: 'UI Micro-interactions Kit',
-  //   description:
-  //     'A curated library of delightful UI motion patterns and accessible components for rapid prototyping.',
-  //   tech: ['React', 'Framer Motion', 'Storybook'],
-  //   year: '2023',
-  //   category: 'Design',
-  // },
+  {
+    title: 'Weather Forecast',
+    description:
+      'A simple weather dashboard that lets users search any city and instantly see its current forecast, built with vanilla web technologies.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    year: '2025',
+    category: 'Utility',
+    link: 'https://weather-forecast-self-kappa.vercel.app/',
+    github: 'https://github.com/sarananil11/weather-forecast',
+  },
 ]
-

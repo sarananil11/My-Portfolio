@@ -59,15 +59,15 @@ const Hero = () => {
       >
         <Card className="w-full">
           <p className="text-sm uppercase tracking-[0.25em] text-brand-light">Currently</p>
-          <h3 className="mt-2 font-display text-2xl text-white">BCA @ Calicut University</h3>
+          <h3 className="mt-2 font-display text-2xl text-white">Intern @ Techolas Technologies</h3>
           <p className="mt-3 text-sm text-slate-300">
-            Focused on strengthening core programming concepts while building side projects.
+            Interning at Techolas Technologies as a Software Developer.
           </p>
         </Card>
         <Card className="w-full">
           <p className="text-sm uppercase tracking-[0.25em] text-brand-light">Focus Areas</p>
           <div className="mt-3 flex flex-wrap gap-2 text-sm text-slate-200">
-            {['Frontend Engineering', 'UI Motion', 'Product Thinking'].map((item) => (
+            {['Software Engineering', 'Responsive web apps', 'Full stack development'].map((item) => (
               <span key={item} className="rounded-full bg-white/5 px-3 py-1">
                 {item}
               </span>
