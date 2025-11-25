@@ -12,11 +12,21 @@ export const projects = [
   {
     title: 'Weather Forecast',
     description:
-      'A simple weather dashboard that lets users search any city and instantly see its current forecast, built with vanilla web technologies.',
+      'A simple weather dashboard that lets users search any city and instantly see its current forecast.',
     tech: ['HTML', 'CSS', 'JavaScript'],
     year: '2025',
     category: 'Utility',
     link: 'https://weather-forecast-self-kappa.vercel.app/',
     github: 'https://github.com/sarananil11/weather-forecast',
   },
+  {
+    title: 'Glow Skin',
+    description:
+      'A professional e commerce website which allows users to look skin care items and add to cart.',
+    tech: ['React', 'Tailwind', 'Javascript'],
+    year: '2025',
+    category: 'E-Commerce',
+    link: 'https://react-ecom-website-sigma.vercel.app/',
+    github: 'https://github.com/sarananil11/React-Ecom-Website'
+  }
 ]
