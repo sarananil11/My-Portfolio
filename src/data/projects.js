@@ -28,5 +28,16 @@ export const projects = [
     category: 'E-Commerce',
     link: 'https://react-ecom-website-sigma.vercel.app/',
     github: 'https://github.com/sarananil11/React-Ecom-Website'
+  },
+  {
+    title: 'Movie Watch',
+    description:
+      'A simple website to write your thoughts about different types of movies',
+    tech: ['React', 'Css', 'Javascript'],
+    year: '2026',
+    category: 'Entertainment',
+    link: 'https://movie-app-theta-ten-56.vercel.app/',
+    github: 'https://github.com/sarananil11/Movie-app'
   }
+  
 ]
