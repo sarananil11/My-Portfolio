@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 text-sm text-slate-400 md:flex-row md:items-center md:justify-between">
         <div>
           <p className="font-display text-lg text-white">Saran Anil</p>
-          <p>Aspiring Software Developer</p>
+          <p>Aspiring Web Developer</p>
         </div>
         <div className="flex flex-wrap items-center gap-4 text-slate-300">
           <button onClick={() => scrollToSection('projects')} className="hover:text-white">

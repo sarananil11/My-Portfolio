@@ -30,7 +30,7 @@ const About = () => {
             <Card className="h-full space-y-4">
               <h3 className="font-display text-2xl text-white">Background</h3>
               <p className="text-slate-300">
-                Aspiring Junior Software Engineer and MERN Stack Developer with
+                Aspiring Junior Web developer and MERN Stack Developer with
                 a strong foundation in HTML, CSS, Bootstrap, and JavaScript.
                 Skilled in building responsive, user-friendly web interfaces and
                 integrating APIs to enhance functionality. Passionate about
@@ -40,7 +40,7 @@ const About = () => {
                 collaborative development team.
               </p>
               <p className="text-slate-300">
-                My goal is to keep improving as a full stack engineer, contribute
+                My goal is to keep improving as a full stack developer, contribute
                 to impactful product teams, and create interfaces that feel
                 effortless to use.
               </p>

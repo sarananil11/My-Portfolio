@@ -35,7 +35,7 @@ const Hero = () => {
           variants={heroVariants}
           className="font-display text-4xl leading-tight text-white sm:text-5xl lg:text-6xl"
         >
-          Hi, I&apos;m <span className="text-brand">Saran Anil</span> — Aspiring Software Developer
+          Hi, I&apos;m <span className="text-brand">Saran Anil</span> — Aspiring Web Developer
         </Motion.h1>
         <Motion.p variants={heroVariants} className="text-lg text-slate-300 sm:text-xl">
           I&apos;m a BCA student who loves turning thoughtful ideas into interactive experiences. I
@@ -61,13 +61,13 @@ const Hero = () => {
           <p className="text-sm uppercase tracking-[0.25em] text-brand-light">Currently</p>
           <h3 className="mt-2 font-display text-2xl text-white">Intern @ Techolas Technologies</h3>
           <p className="mt-3 text-sm text-slate-300">
-            Interning at Techolas Technologies as a Software Developer.
+            Interning at Techolas Technologies as a Full stack Developer.
           </p>
         </Card>
         <Card className="w-full">
           <p className="text-sm uppercase tracking-[0.25em] text-brand-light">Focus Areas</p>
           <div className="mt-3 flex flex-wrap gap-2 text-sm text-slate-200">
-            {['Software Engineering', 'Responsive web apps', 'Full stack development'].map((item) => (
+            {['Web Developing', 'Responsive web apps', 'Full stack development'].map((item) => (
               <span key={item} className="rounded-full bg-white/5 px-3 py-1">
                 {item}
               </span>
